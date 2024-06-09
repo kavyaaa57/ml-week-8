@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
-
+st.markdown("<h1 style='text-align: center;'>Code X</h1>", unsafe_allow_html=True)
 # Load the dataset
 dataset = load_iris()
 X_train, X_test, y_train, y_test = train_test_split(dataset["data"], dataset["target"], random_state=0)
